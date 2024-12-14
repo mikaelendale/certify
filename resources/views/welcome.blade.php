@@ -165,7 +165,7 @@
                             <div class="col-lg-12">
                                 <div class="section-title text-center mb-50" data-aos="fade-up"
                                     data-aos-duration="800">
-                                    <h4 class="title text-anm">Full integration with your tools</h4>
+                                    <h4 class="title text-anm">Full integration with your apps</h4>
                                 </div>
                             </div>
                         </div>
@@ -173,25 +173,25 @@
                             <div class="col-xl-2 col-lg-4 col-md-3">
                                 <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1000">
                                     <div class="tool-img">
-                                        <img src="assets/images/tools/tool1.png" alt="Tools Icon">
+                                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" alt="Tools Icon">
                                     </div>
-                                    <h5>Mailchimp</h5>
+                                    <h5>Linkedin</h5>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-4 col-md-3">
                                 <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1100">
                                     <div class="tool-img">
-                                        <img src="assets/images/tools/tool2.png" alt="Tools Icon">
+                                        <img src="https://cdn1.iconfinder.com/data/icons/business-finance-vol-3-39/512/cv_resume_job_application-64.png" alt="Tools Icon">
                                     </div>
-                                    <h5>Trello</h5>
+                                    <h5>Resume</h5>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-4 col-md-3">
                                 <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1200">
                                     <div class="tool-img">
-                                        <img src="assets/images/tools/tool3.png" alt="Tools Icon">
+                                        <img src="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Behance-256.png" alt="Tools Icon">
                                     </div>
-                                    <h5>Figma</h5>
+                                    <h5>Portfolio</h5>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-4 col-md-3">
@@ -205,17 +205,9 @@
                             <div class="col-xl-2 col-lg-4 col-md-3">
                                 <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1400">
                                     <div class="tool-img">
-                                        <img src="assets/images/tools/tool5.png" alt="Tools Icon">
+                                        <img src="https://cdn2.iconfinder.com/data/icons/flat-pack-1/64/Education-512.png" alt="Tools Icon">
                                     </div>
-                                    <h5>Dropbox</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-lg-4 col-md-3">
-                                <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1500">
-                                    <div class="tool-img">
-                                        <img src="assets/images/tools/tool6.png" alt="Tools Icon">
-                                    </div>
-                                    <h5>Framer</h5>
+                                    <h5>Applications</h5>
                                 </div>
                             </div> 
                         </div>
