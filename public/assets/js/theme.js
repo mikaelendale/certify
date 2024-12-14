@@ -6,7 +6,6 @@
     Author: Pixelfit
     Author URI: https://themeforest.net/user/pixelfit
     Version: 1.0 
-
     
 -----------------------------------------------------------------------------------*/
 
@@ -15,23 +14,87 @@
 
     //===== Slick slider js
 
-    if ($('.testimonial-slider').length) {
-        $('.testimonial-slider').slick({
+    $('.hero-content').animatedHeadline({
+        animationType: 'rotate-1'
+    });
+
+
+    if ($('.case-slider').length) {
+        $('.case-slider').slick({
             dots: false,
             arrows: false,
             infinite: true,
             speed: 800,
             autoplay: true,
-            variableWidth: true,
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             prevArrow: '<div class="prev"><i class="fas fa-angle-left"></i></div>',
             nextArrow: '<div class="next"><i class="fas fa-angle-right"></i></div>',
             responsive: [
                 {
-                    breakpoint: 800,
+                    breakpoint: 1200,
                     settings: {
-                        variableWidth: false,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    }
+    if ($('.testimonial-slider').length) {
+        var sliderArrows = $('.testimonial-arrows');
+        $('.testimonial-slider').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 800,
+            appendArrows: sliderArrows,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '<div class="prev"><i class="fas fa-angle-left"></i></div>',
+            nextArrow: '<div class="next"><i class="fas fa-angle-right"></i></div>'
+        });
+    }
+
+    if ($('.company-slider').length) {
+        $('.company-slider').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 800,
+            autoplay: false,
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            prevArrow: '<div class="prev"><i class="fas fa-angle-left"></i></div>',
+            nextArrow: '<div class="next"><i class="fas fa-angle-right"></i></div>',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
                         slidesToShow: 1,
                     }
                 }
